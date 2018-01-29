@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+$(document).ready(function(){
+    $(":checked").wrap("<span style='background-color:red'>");
+});
+</script>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="img_fjords_wide.jpg" alt="Norway" style="width:100%;">
+        <div class="bottom-left">Bottom Left</div>
+        <div class="top-left">Top Left</div>
+        <div class="top-right">Top Right</div>
+        <div class="bottom-right">Bottom Right</div>
+        <div class="centered">Centered</div>
+    </div>
+    
+    
+    <div>
+        <!-- Portrait Div -->
+        <div class="portrait">
+            <img src="http://i.stack.imgur.com/xkF9Q.jpg">
+        </div>
+        
+        <!-- Landscape Div -->
+        <div class="landscape">
+            <img src="http://i.stack.imgur.com/xkF9Q.jpg">
+        </div>
+        
+        <!-- Square Div -->
+        <div class="square">
+            <img src="http://i.stack.imgur.com/xkF9Q.jpg">
+                <strong class="centered">These are the good old days.  They are the ones we long for.</strong>
+                <input class="centered" type="radio" name="asdf">
+                <!-- <input class="bottom-right" type="radio" name="asdf"> -->
+                <strong class="bottom-right" ><input type="radio" name="asdf" value="Yes">YES</strong>
+                <strong class="bottom-left" ><input type="radio" name="asdf" value="No">NO</strong>
+        </div>
+    </div>
+
+</body>
+</html>
